@@ -30,6 +30,12 @@ pipeline {
             steps {
                 echo 'Save the assemblies generated from the compilation for this practical' 
             }
+        stage('Test Artifacts') {
+            steps{
+                echo 'Test the artifacts for this practical'
         }
+        stage('Test Drive') {
+            steps{
+                echo 'Do a test drive for this practical'
     }
 }
